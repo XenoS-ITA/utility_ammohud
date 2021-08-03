@@ -1,0 +1,41 @@
+body {
+	margin-top: 280px;
+	margin-left: 280px;
+}
+
+.container {
+	transform: scale(1.8);
+	font-family: 'Montserrat';
+	width: 50px;
+	height: 50px;
+
+	padding: 15px;
+	background-color: transparent;
+
+	color: rgba(255, 255, 255, 0.801);
+}
+
+.ammo {
+	filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.3));
+	font-size: 30px;
+	display: table;
+	margin: 0 auto;
+	margin-top: -7px;
+
+	padding-left: 5px;
+	padding-right: 4px;
+
+	background-color: rgba(255, 255, 255, 0.430);
+}
+
+.maxammo {
+	filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.3));
+	display: table;
+	margin: 0 auto;
+	margin-top: 3px;
+
+	padding-left: 5px;
+	padding-right: 4px;
+
+	background-color: rgba(255, 255, 255, 0.253);
+}
