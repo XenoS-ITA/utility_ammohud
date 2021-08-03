@@ -9,3 +9,7 @@ client_scripts {
 files {
     "html/**/*.*",
 }
+
+dependencies {
+    "utility_lib"    
+}
