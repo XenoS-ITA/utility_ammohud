@@ -1,7 +1,8 @@
 DevMode(false)
 
+local n3d
 Citizen.CreateThread(function()
-    local n3d = CreateNui3d("utility_lib_1", "html/ui.html")
+    n3d = CreateNui3d("utility_lib_1", "html/ui.html")
 end)
 
 CreateLoop(function()
