@@ -1,6 +1,9 @@
 DevMode(false)
 
-local n3d = CreateNui3d("utility_lib_1", "html/ui.html")
+Citizen.CreateThread(function()
+    local n3d = CreateNui3d("utility_lib_1", "html/ui.html")
+end)
+
 CreateLoop(function()
     if IsPedReloading(PlayerPedId()) then -- If reloading hide the HUD
         if n3d:visible() then
